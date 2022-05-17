@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps:
 - It's necessary to install the LTS option of Node.js. [link](https://nodejs.org/en/).
 - npm will be included in the previous installation.
 - Go to the folder where you want to store the project, and clone the repository:
-- SSH: https://github.com/zkr024/test.git
+- SSH: https://github.com/zkr024/space-travelers.git
 - From the folder where all the files are located please Run npm install.
 - And to launch the web server, please run npm start.
 
