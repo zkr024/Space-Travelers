@@ -1,0 +1,99 @@
+.mainContainer {
+  margin: 10px;
+}
+
+.sections,
+#missionContainer,
+.status,
+.join {
+  display: flex;
+}
+
+.mainContainer,
+#missionContainer {
+  border: 1px solid #dee2e6;
+  margin-bottom: 1px;
+  padding: 1px;
+}
+
+#missionContainer:nth-child(2n + 1) {
+  background-color: #f2f2f2;
+}
+
+.sections {
+  border: 0.5px solid #dee2e6;
+  margin-bottom: 1px;
+}
+
+.mission,
+.sectionOne {
+  width: 15%;
+  border-right: 1px solid #dee2e6;
+  padding-left: 5px;
+}
+
+.description,
+.sectionTwo {
+  width: 65%;
+  border-right: 1px solid #dee2e6;
+  padding-left: 5px;
+}
+
+.status,
+.sectionThree {
+  width: 10%;
+  border-right: 1px solid #dee2e6;
+  padding-left: 5px;
+}
+
+.status,
+.join {
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.description {
+  padding-bottom: 30px;
+}
+
+.join {
+  width: 10%;
+}
+
+.noMember {
+  background-color: #6d757d;
+  font-size: 12px;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.activeMember {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.btnJoin,
+.btnLeave {
+  background-color: transparent;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnJoin {
+  border: 1px solid #000;
+}
+
+.btnLeave {
+  border: 1px solid #dc3645;
+  color: #dc3645;
+}
