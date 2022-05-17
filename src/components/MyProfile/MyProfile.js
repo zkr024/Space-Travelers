@@ -1,7 +1,14 @@
 import { useSelector } from 'react-redux';
 
-const item = (t) => (
-  <div key={t.name}>{t.name}</div>
+import './myProfile.css';
+
+const item = (value) => (
+  <div
+    key={value.name}
+    className="panels"
+  >
+    {value.name}
+  </div>
 );
 
 const MyProfile = () => {
