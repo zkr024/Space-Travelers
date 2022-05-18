@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 
-import NavBar from '../Navbar/NavBar';
+import NavBar from '../components/Navbar/NavBar';
 
 const Container = () => {
   <BrowserRouter>

@@ -1,4 +1,4 @@
-import { reducers } from '../redux/configureStore';
+import { reducers } from '../components/redux/configureStore';
 
 test('reducers', () => {
   const state = reducers({
