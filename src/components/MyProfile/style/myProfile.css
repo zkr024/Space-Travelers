@@ -1,0 +1,51 @@
+.Main_Container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.Container {
+  width: 48%;
+}
+
+.Container h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.items {
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.panels {
+  border-bottom: 1px solid #dee2e6;
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noSelected {
+  margin-top: 20px;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #dc3645;
+  color: #dc3645;
+}
+
+.iconFa {
+  margin-right: 5px;
+}
+
+.removeTask {
+  background-color: transparent;
+  border: 1px solid #dee2e6;
+  border-radius: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  color: #94999c;
+  font-weight: 600;
+}
