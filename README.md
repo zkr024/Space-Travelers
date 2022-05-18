@@ -10,8 +10,7 @@ A web App that takes and display information from an API and simulate reservatio
 
 ## Live Demo
 
-[Space-travelers](https://6284139c746cda24668b824e--fancy-cannoli-7d094e.netlify.app/
-)
+[Space-travelers](https://fancy-cannoli-7d094e.netlify.app/)
 
 ## Getting Started
 
